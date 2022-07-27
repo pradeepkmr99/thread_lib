@@ -6,7 +6,7 @@
 #include<ucontext.h>
 #include<stdarg.h>
 #include "Queue.h"
-#include "mythread.h"
+#include "thread.h"
 
 extern ucontext_t uctx_main;
 extern queue_head_t *run_queue_thread;
